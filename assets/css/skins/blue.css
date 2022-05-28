@@ -1,0 +1,106 @@
+body a {
+  color: #003471;
+}
+body a:hover, body a:focus, body a:active {
+	color: #0055b7;
+}
+.content h1.page-heading {
+	color: #003471;
+}
+
+/*Menu*/
+#sidebar {
+	background-color: #003471;
+}
+
+/*Panels*/
+.panel-primary {
+	border-color: #003471;
+}
+.panel-primary .panel-heading {
+	background-color: #003471;
+	color: #fff;
+}
+.panel-primary .panel-heading .panel-title {
+	font-size: 13px;
+}
+
+/*Buttons*/
+.btn-primary {
+	background-color: #003471;
+	border-color: #003471;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active, .open > dropdown-toggle.btn-primary, dropdown-toggle.btn-primary:active:focus, .btn-primary.active, .btn-primary:active:focus {
+	background-color: #012d5e !important;
+	border-color: #003471;
+	outline: none;
+}
+
+/*Tab*/
+.block > .nav-tabs.nav-tabs-alt > li:hover > a {
+	color: #003471;
+	box-shadow: 0 2px #003471;
+}
+.block > .nav-tabs.nav-tabs-alt > li.active > a, .block > .nav-tabs.nav-tabs-alt > li.active > a:hover, .block > .nav-tabs.nav-tabs-alt > li.active > a:focus {
+	box-shadow: 0 2px #003471;
+}
+
+/*Form Material*/
+.form-material input:focus, .form-material textarea:focus {
+	box-shadow: 0 2px #003471 !important;
+}
+
+/*Select2*/
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: #003471 !important;
+}
+
+/*Switch*/
+.switch-primary input:checked+span {
+	background-color:#003471;
+}
+
+/*BG, Label, Text, Badge*/
+.text-primary {
+	color: #003471 !important;
+}
+.bg-primary, .label-primary, .badge-primary {
+	background-color: #003471 !important;
+}
+
+/*Pagination*/
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	color: #003471 !important;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px #003471;
+}
+
+/*Calender*/
+.fc-day-grid-event {
+	background-color: #003471;
+	color: #fff;
+	border-color: #003471;
+}
+
+/*Login*/
+.bg-cover {
+	background: rgba(0, 52, 113, 0.6); 
+	min-height:100%;
+	color: #ffffff;
+}
+.bg-cover a {
+	color: #ffffff;
+}
+.bg-cover a:hover, .bg-cover a:active, .bg-cover a:focus {
+	color: #cccccc;
+}
+.bg-cover .form-material input, .bg-cover .form-material input:focus {
+	color: #ffffff;
+}
+
+
+/*DateTime Picker*/
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:focus, .datepicker table tr td.active:hover:focus, .datepicker table tr td.active.disabled:focus, .datepicker table tr td.active.disabled:hover:focus, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.active:hover, .open .dropdown-toggle.datepicker table tr td.active, .open .dropdown-toggle.datepicker table tr td.active:hover, .open .dropdown-toggle.datepicker table tr td.active.disabled, .open .dropdown-toggle.datepicker table tr td.active.disabled:hover, .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:focus, .datepicker table tr td span.active:hover:focus, .datepicker table tr td span.active.disabled:focus, .datepicker table tr td span.active.disabled:hover:focus, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.active:hover, .open .dropdown-toggle.datepicker table tr td span.active, .open .dropdown-toggle.datepicker table tr td span.active:hover, .open .dropdown-toggle.datepicker table tr td span.active.disabled, .open .dropdown-toggle.datepicker table tr td span.active.disabled:hover {
+	background-color: #003471;
+	border-color: #003471;
+}
